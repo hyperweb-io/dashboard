@@ -26,7 +26,7 @@ function getModeFromRoute(pathname: string): 'smart-objects' | 'infra' | 'editor
   if (pathname === '/editor') {
     return 'editor'
   }
-  if (pathname === '/d' || pathname.startsWith('/d/')) {
+  if (pathname === '/d' || pathname.startsWith('/d/') || pathname === '/playground' || pathname.startsWith('/playground/')) {
     return 'smart-objects'
   }
   if (pathname === '/i' || pathname.startsWith('/i/')) {

@@ -48,7 +48,8 @@ import {
   Code,
   MessageSquare,
   CloudIcon,
-  FunctionSquare
+  FunctionSquare,
+  Play
 } from 'lucide-react'
 
 // Smart Objects navigation
@@ -66,6 +67,7 @@ const smartObjectsNavigation = [
   { id: 'contracts', label: 'Contracts', icon: FileCode2, href: '/d/contracts', section: 'blockchain' },
   { id: 'relayers', label: 'Relayers', icon: Globe, href: '/d/relayers', section: 'blockchain' },
   { id: 'registry', label: 'Registry', icon: Database, href: '/d/registry', section: 'blockchain' },
+  { id: 'playground', label: 'Playground', icon: Play, href: '/playground', section: 'blockchain' },
   
   // Settings
   { id: 'settings', label: 'Settings', icon: Settings, href: '/d/settings' },
