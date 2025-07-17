@@ -41,6 +41,7 @@ import {
   ChevronDown,
   ChevronRight,
   Heart,
+  Box,
 } from 'lucide-react';
 
 const navigationItems = [
@@ -49,6 +50,7 @@ const navigationItems = [
   { id: 'all', label: 'All Resources', icon: Grid3x3, href: '/all' },
   { id: 'templates', label: 'Templates', icon: FileCode2, href: '/templates' },
   { id: 'playground', label: 'Playground', icon: Zap, href: '/playground' },
+  { id: 'explorer', label: 'Explorer', icon: Box, href: '/explorer' },
 
   // Workloads
   { id: 'workloads-header', label: 'Workloads', isHeader: true, section: 'workloads' },

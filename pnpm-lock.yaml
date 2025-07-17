@@ -6,11 +6,15 @@ settings:
 
 overrides:
   '@hyperweb/playground': link:../chain-kit/packages/nextjs-playground
+  '@hyperweb/explorer': link:../chain-kit/packages/nextjs-explorer
 
 importers:
 
   .:
     dependencies:
+      '@hyperweb/explorer':
+        specifier: link:../chain-kit/packages/nextjs-explorer
+        version: link:../chain-kit/packages/nextjs-explorer
       '@hyperweb/playground':
         specifier: link:../chain-kit/packages/nextjs-playground
         version: link:../chain-kit/packages/nextjs-playground

@@ -10,6 +10,7 @@
     "codegen": "ts-node ./scripts/codegen.ts"
   },
   "dependencies": {
+    "@hyperweb/explorer": "link:../chain-kit/packages/nextjs-explorer",
     "@hyperweb/playground": "link:../chain-kit/packages/nextjs-playground",
     "@kubernetesjs/react": "^0.6.1",
     "@monaco-editor/react": "^4.7.0",
@@ -48,7 +49,8 @@
   },
   "pnpm": {
     "overrides": {
-      "@hyperweb/playground": "link:../chain-kit/packages/nextjs-playground"
+      "@hyperweb/playground": "link:../chain-kit/packages/nextjs-playground",
+      "@hyperweb/explorer": "link:../chain-kit/packages/nextjs-explorer"
     }
   }
 }
